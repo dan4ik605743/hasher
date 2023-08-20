@@ -2,7 +2,7 @@ use clap::Parser;
 
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
-pub struct CommandLineArgs {
+pub struct Args {
     /// Path to folder
     #[arg(short, long)]
     pub path: String,
